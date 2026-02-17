@@ -1,8 +1,8 @@
-completed {
+
+   .completed > * span {
+    color: rgb(255, 255, 255);
     background-color: green;
     border-radius: 1rem;
     transition: .15s ease;
-   }
-   .completed > * span {
-    color: white;
+    padding: 12px;
    }

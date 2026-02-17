@@ -32,7 +32,8 @@ export class Todos {
    toggleCompleted(todo: Todo): void {
     todo.completed = !todo.completed;
    }
-
+   
+   
    getClass(todo: Todo): string {
     return todo.completed ? 'completed' : '';
    }
